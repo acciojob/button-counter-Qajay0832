@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Button Clicked {val} times</p>
+        <p>Button clicked {val} times</p>
         <button  onClick={()=>setVal(val+1)}>Click me</button>
     </div>
   )
